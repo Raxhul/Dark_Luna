@@ -7,7 +7,7 @@ const Reg = () => {
         <h2>create a account </h2>
         <input type="email" placeholder='email' /> <br />
         <input type="password" placeholder='password' /> <br />
-        <button>create</button> 
+        <button>create</button> <br />
         <button>reset</button>
       </center>
     </div>
