@@ -1,0 +1,43 @@
+.nav_bar{
+    
+    border-width: 2px;
+    border-radius:15px;
+    display: flex;
+    position:relative;
+}
+.dark{
+font-style: italic;
+color: rgb(89, 86, 255);
+}
+.about{
+    margin-top: 25px;
+    margin-left: 70%;
+    font-weight: 800;
+    font-style: italic;
+}
+.signin{
+    margin-top: 25px;
+    margin-left: 3%;
+    font-weight: 800;
+    font-style: italic;
+}
+.img_1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 2%;
+    color: antiquewhite;
+    background-color: black;
+
+}
+.X{
+    margin-top: 10px;
+    
+}
+.home{
+    margin-top: 25px;
+    margin-left: 3%;
+    font-weight: 800;
+    font-style: italic;
+}
