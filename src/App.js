@@ -1,34 +1,30 @@
-
-import { Link,Route, Routes } from 'react-router-dom';
-import Login from './Login';
-import Reg from './Reg';
-import Home from './Home';
+import {  Link, Route, Routes } from "react-router-dom";
+import About from "./About";
+import Home from "./Home";
+import Newpost from "./Newpost";
+import Postpage from "./Postpage";
+import Post from "./Post";
 
 function App() {
   return (
 
     <div >
-      <nav>
-        <ul>
-          <li><Link to='h'>home</Link></li>
-          <li><Link to='l'>Login</Link></li>
-          <li><Link to='r'>create  account</Link></li>
-        </ul>
-      </nav>
-<Routes>
-  <Route path='l' element={<Login/>}></Route>
-  <Route path='h' element={<Home/>}></Route>
-  <Route path='r' element={<Reg/>}></Route>
-</Routes>
 
 
 
-      {/*
-       <Login/>
-       <Reg/>
-      */ }
-    
-  
+      <nav><center>
+      <Link to="about">About</Link><br />
+      <Link to="newpost">New_post</Link><br />
+      <Link to="postpage">post_page</Link><br />
+      <Link to="/">back</Link>
+      </center></nav>
+      <Routes>
+        <Route  path="/" element={<Home/>}/>
+        <Route path="about" element={<About/>}/>
+        <Route path="newpost" element={<Newpost/>}/>    
+        <Route path="postpage" element={<Postpage/>}/>  
+        <Route path="post/:id" element={<Post/>}/>    
+      </Routes>
     </div>
 
   );
