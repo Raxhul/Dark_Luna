@@ -4,18 +4,27 @@ import './nav.css'
 
 const Nav = () => {
   return (
-    <nav className='nav_bar'>
-      <h1 className='dark'>Dark Luna</h1>
-      <Link to="about"  className='about'>About</Link>
-      <Link to="/" className='home'>Home</Link>
-      <Link className='signin'>SignIn</Link>
-      <div className="img_1">
-        <center><h1 className='X'>logo</h1></center>
-        </div>
+    
+   <nav>
+    <ul><li>
+        
+       <h1>Dark Luna 🌕</h1>
+        
+       
+</li></ul>
+<div class="k">
+  <Link to="about"  className='what'>About</Link>
+    
+  <Link className='git'>SignIn</Link>
+  <Link to="/" className='in' >Home</Link>
+</div>
 
-        <Outlet/>
-    </nav>
 
+ 
+
+           <Outlet/>
+    
+           </nav>
 )
 }
 

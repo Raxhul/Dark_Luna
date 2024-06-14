@@ -1,43 +1,26 @@
-.nav_bar{
-    
-    border-width: 2px;
-    border-radius:15px;
+nav{
+    padding: 10px 0;
     display: flex;
-    position:relative;
-}
-.dark{
-font-style: italic;
-color: rgb(89, 86, 255);
-}
-.about{
-    margin-top: 25px;
-    margin-left: 70%;
-    font-weight: 800;
-    font-style: italic;
-}
-.signin{
-    margin-top: 25px;
-    margin-left: 3%;
-    font-weight: 800;
-    font-style: italic;
-}
-.img_1{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-left: 2%;
-    color: antiquewhite;
-    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+    margin-right: 20px;
 
 }
-.X{
-    margin-top: 10px;
-    
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    margin-left: 20px;
 }
-.home{
-    margin-top: 25px;
-    margin-left: 3%;
-    font-weight: 800;
-    font-style: italic;
+.what{
+    text-decoration: none;
+    color: #000000;
+    margin-right: 25px;
+    font-weight: 400;
 }

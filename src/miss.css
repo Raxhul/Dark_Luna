@@ -1,0 +1,10 @@
+.miss{
+margin-top: 0px;
+    background: url('./404.gif');
+    height: 450px;
+    width: 800px;
+}
+.miss_home{
+    height: 50px;
+    width: 150px;
+}
