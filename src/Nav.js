@@ -8,7 +8,7 @@ const Nav = () => {
    <nav>
     <ul><li>
         
-       <h1>Dark Luna 🌕</h1>
+       <h1>DL developer🌕</h1>
         
        
 </li></ul>
